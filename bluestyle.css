@@ -1,0 +1,399 @@
+body,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    margin: 0;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: #003366;
+    /* Dark Blue */
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    margin-top: 0px;
+    z-index: 999.9;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.TFC-logo {
+    aspect-ratio: 2/2;
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 6px;
+    transition: transform 1.5s ease;
+}
+
+.TFC-logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: behavior smooth;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(PressGothicPro.ttf);
+}
+
+.navigation a {
+    color: #00CC99;
+    /* Vibrant Green */
+    text-decoration: none;
+    font-size: 25px;
+    font-family: myfont;
+    padding-left: 30px;
+    transition: 0.5s;
+}
+
+.navigation a:hover {
+    color: #66FF66;
+    /* Light Green */
+    text-decoration: underline;
+}
+
+.main {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(gg\ girl.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+.h2 {
+    padding-left: 4px;
+    display: inline block;
+    font-family: myfont2;
+    font-size: 1.4em;
+    color: #66CCFF;
+    /* Light Blue */
+    font-weight: 500;
+    background-color: #003366;
+    /* Dark Blue */
+    width: 255px;
+}
+
+@font-face {
+    font-family: myfont3;
+    src: url(RainOutline-qWxq.otf);
+}
+
+.CE {
+    font-family: myfont3;
+    color: #66FF66;
+    /* Light Green */
+    font-size: 3em;
+    padding-top: 0;
+    font-weight: 600;
+}
+
+.h3 {
+    font-family: myfont2;
+    font-size: 1.7em;
+    color: #003366;
+    /* Dark Blue */
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    color: #003366;
+    /* Dark Blue */
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 2px;
+    font-family: myfont2;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #66CCFF;
+    /* Light Blue */
+    transition: transform 0.7s ease;
+}
+
+.main-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: behavior smooth;
+    background-color: #3399FF;
+    /* Medium Blue */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.social-links a {
+    color: #003366;
+    /* Dark Blue */
+    font-size: 1.7em;
+    padding-right: 30px;
+    margin-left: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #003366;
+    /* Dark Blue */
+    font-size: 2.8em;
+    font-weight: 800;
+    padding: 20px;
+    font-family: myfont;
+    letter-spacing: 3px;
+    background-color: #66CCFF;
+    /* Light Blue */
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #66CCFF;
+    /* Light Blue */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background-color: #66CCFF;
+    /* Light Blue */
+    width: 22.25em;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.2s ease;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 6em;
+    color: #003366;
+    /* Dark Blue */
+    text-align: center;
+}
+
+.hx {
+    font-size: 1.8em;
+    color: #66CCFF;
+    /* Light Blue */
+    text-align: center;
+    font-family: myfont2;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #003366;
+    /* Dark Blue */
+}
+
+@font-face {
+    font-family: caviar;
+    src: url(Rubik-Regular.ttf);
+}
+
+.pp {
+    text-align: center;
+    color: #000000;
+    font-size: 1em;
+    font-family: caviar;
+}
+
+.projects {
+    background-color: #66CCFF;
+    /* Light Blue */
+    margin-bottom: 0;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.projects-card {
+    background-color: #3399FF;
+    /* Medium Blue */
+    border: #003366 5px solid;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.4s ease;
+}
+
+.projects-card:hover {
+    transform: scale(1.1);
+    transition: behavior(smooth);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.pro-img img {
+    width: 100%;
+    border: 2px solid #003366;
+    /* Dark Blue */
+}
+
+.projects-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 1.5em;
+    color: #000000;
+    font-family: myfont2;
+    margin-left: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    font-family: myfont2;
+    color: #66CCFF;
+    /* Light Blue */
+    text-decoration: none !important;
+    transition: 0.7s ease-out;
+    margin-right: 8px;
+    background-color: #003366;
+    /* Dark Blue */
+    margin: 5px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.more-details:hover {
+    color: #66FF66;
+    /* Light Green */
+}
+
+span {
+    color: #003366;
+    /* Dark Blue */
+    font-size: 0.7em;
+    max-width: 220px;
+    margin-left: 5px;
+    font-family: myfont2;
+}
+
+.pro-img1 img {
+    height: 358px;
+    border: 2px solid #003366;
+    /* Dark Blue */
+}
+
+.pro-img2 img {
+    height: 358px;
+    border: 2px solid #003366;
+    /* Dark Blue */
+    align-items: center;
+}
+
+.VA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dang {
+    background-color: #66CCFF;
+    /* Light Blue */
+    color: #003366;
+    /* Dark Blue */
+    font-family: myfont;
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 62px;
+    width: 194.95px;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 3px;
+    text-decoration: none;
+    border: #003366 6px solid;
+}
+
+.dang:hover {
+    background-color: #003366;
+    /* Dark Blue */
+    border: #66CCFF;
+    /* Light Blue */
+    color: #66CCFF;
+    /* Light Blue */
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: behavior smooth;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.contact .icon {
+    font-size: 4.5em !important;
+}
+
+.contact .info p {
+    font-size: 1.2em;
+}
+
+.pp {
+
+
+    text-align: center;
+    font-size: 1.1em;
+    color: #003366;
+    /* Dark Blue */
+}
+
+.footer {
+    background-color: #003366;
+    /* Dark Blue */
+    padding: 10px 0;
+    color: #66CCFF;
+    /* Light Blue */
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.footer a {
+    color: #66CCFF;
+    /* Light Blue */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
